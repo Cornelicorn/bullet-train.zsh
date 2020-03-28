@@ -574,7 +574,6 @@ prompt_kctx() {
 
 # Virtualenv: current working virtualenv
 prompt_virtualenv() {
-  local virtualenv_path="$VIRTUAL_ENV"
   if [[ -n $VIRTUAL_ENV_DISABLE_PROMPT ]]; then
     local virtualenv_path="$VIRTUAL_ENV"
     if [[ -n $CONDA_DEFAULT_ENV ]]; then
